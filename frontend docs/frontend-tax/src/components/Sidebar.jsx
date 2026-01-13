@@ -139,7 +139,7 @@ const Sidebar = ({
                   >
                     {chat.icon && <span>{chat.icon}</span>}
                     <span className="truncate flex-1">{chat.title}</span>
-                    {chat.active && <ChevronRight className="w-4 h-4 flex-shrink-0" />}
+                    {chat.active && <ChevronRight className="w-4 h-4 shrink-0" />}
                   </button>
                 ))}
               </div>
