@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="790ec617-2ba0-43f9-9fa3-a9a03c07b546" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Tax_Reform_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TO_BACKEND.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/document_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/documents/Analysis-of-the-Nigerian-Tax-Reform-Bills(PLAC).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/documents/Frequently-Asked-Questions-on-Nigerias-New-Tax-Regime-Key-Provisions-and-Innovations-Under-the-2025-Tax-(FAQs on Nigeri's Tax Regime).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/documents/JOINT-REVENUE-BOARD-OF-NIGERIA-(ESTABLISHMENT)-ACT-2025.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/documents/NIGERIA-REVENUE-SERVICE-(ESTABLISHMENT)-ACT-2025.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/documents/NIGERIA-TAX-ADMINISTRATION-ACT-2025.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/documents/Nigeria-Tax-Act-2025.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/documents/The Nigeria Tax Act (NTA), 2025(KPMG).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/memory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/tests/debug_retrieval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/tests/test_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/tests/test_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ai_engine/vector_store.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SamuelDasaolu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SamuelDasaolu/Tax_Reform_Project.git&quot;,
+    &quot;accountId&quot;: &quot;e1eec044-6fd1-41d0-9e35-27feb54a4b6b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="38CR2i6T8HKEhXei0ppfWPBlJMl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging main",
+    "last_opened_file_path": "C:/Users/ncc/PycharmProjects/Tax_Reform_Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ncc\PycharmProjects\Tax_Reform_Project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ncc\PycharmProjects\Tax_Reform_Project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Tax_Reform_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="790ec617-2ba0-43f9-9fa3-a9a03c07b546" name="Changes" comment="" />
+      <created>1768301362642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768301362642</updated>
+      <workItem from="1768301364018" duration="451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
