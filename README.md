@@ -1,182 +1,199 @@
-# 🤖 AI Engine - Nigeria Tax Reform Bills Q&A Assistant
+# 🇳🇬 Nigeria Tax Reform Bills Q&A Assistant  
+### Backend & AI Engine
 
-**AI Engineer:** Samuel Dasaolu  
-**Project:** Agentic RAG Capstone - Nigerian Tax Reform Bills 2024
+**Project:** Agentic RAG Capstone  
+**Team Role:** Backend & AI Engineering  
+**Status:** Production Ready
 
 ---
 
 ## 📋 Overview
 
-This AI Engine implements an intelligent RAG (Retrieval-Augmented Generation) system with agentic behavior for answering questions about Nigeria's 2024 Tax Reform Bills.
-
-### Key Features
-
-✅ **Conditional Retrieval** - Smart decision-making on when to fetch documents  
-✅ **Conversation Memory** - Maintains context across 5 Q&A turns  
-✅ **Source Citations** - Every policy answer includes document references  
-✅ **Gemini Integration** - Uses Google's latest Gemini 2.0 Flash and embeddings  
-✅ **LangGraph Agent** - Structured workflow with decision nodes  
-✅ **Scalable Design** - Ready for production deployment
+This repository contains the complete server-side infrastructure for the **Nigeria Tax Reform Q&A Assistant**.  
+It combines a state-of-the-art **Agentic AI Engine** (built with **LangGraph** and **Google Gemini**) with a robust **FastAPI** backend to serve intelligent, citation-backed answers to frontend clients.
 
 ---
 
-## 🏗️ Architecture
+## 🌟 Key Features
 
-```
-User Query
-    ↓
-┌───────────────────────────────┐
-│   LangGraph Agent             │
-│                               │
-│   1. Decide Retrieval?        │
-│      ├─ YES → Retrieve        │
-│      └─ NO  → Generate        │
-│                               │
-│   2. Retrieve Documents       │
-│      (Chroma Vector DB)       │
-│                               │
-│   3. Generate Response        │
-│      (Gemini 2.0 Flash)       │
-└───────────────────────────────┘
-    ↓
-Response + Citations
-```
+### 🧠 AI Engine
+
+- **Agentic Workflow** – Intelligent decision-making on when to retrieve documents versus when to respond conversationally.
+- **Conditional Retrieval** – Reduces latency and cost by querying the vector database only for policy-related questions.
+- **Citation-Backed Answers** – All policy claims are grounded in official **2024 Nigeria Tax Reform Bills**.
+- **Conversation Memory** – Maintains multi-turn context (e.g., “What about VAT?” following “Will I pay more tax?”).
+
+### 🚀 Backend API
+
+- **FastAPI Implementation** – High-performance, asynchronous REST API.
+- **Auto-Healing Data Layer** – Detects empty vector databases and automatically triggers document ingestion on startup.
+- **Session Management** – Handles user sessions and conversation history.
+- **CORS Enabled** – Ready for React / Next.js frontend integration.
 
 ---
 
-## 📁 Project Structure
+## 🏗️ System Architecture
 
-```
-ai_engine/
-├── config.py                 # Configuration and environment setup
-├── document_processor.py     # Document loading and chunking
-├── vector_store.py          # Chroma vector database with Gemini embeddings
-├── memory.py                # Conversation memory management
-├── agent.py                 # LangGraph agent with conditional routing
-├── utils.py                 # Helper utilities
-├── requirements.txt         # Python dependencies
-├── .env.example            # Environment variables template
-└── tests/
-    ├── test_agent.py       # Comprehensive test suite
-    ├── test_retriever.py   # Retrieval tests
-    └── test_memory.py      # Memory tests
+```mermaid
+graph TD
+    User[Frontend / User] -->|POST /api/chat| API[FastAPI Backend]
+    API -->|Manage Session| Memory[Conversation Memory]
+    API -->|Query| Agent[LangGraph Agent]
+    
+    subgraph "AI Engine"
+        Agent -->|1. Classify Intent| Router{Need Docs?}
+        Router -->|No| Chat[General Chat Model]
+        Router -->|Yes| Retriever[ChromaDB Retriever]
+        Retriever -->|Fetch Context| Generator[Gemini 2.0 Flash]
+    end
+    
+    Generator -->|Response + Citations| API
+    Chat -->|Response| API
+    API -->|JSON Response| User
 ```
 
 ---
 
-## 🚀 Installation & Setup
+## 📂 Project Structure
+
+```
+.
+├── ai_engine/                # Core AI Logic
+│   ├── documents/            # PDF Data Source (Tax Bills)
+│   ├── chroma_db/            # Vector Database (Auto-generated)
+│   ├── agent.py              # LangGraph State Machine
+│   ├── config.py             # Settings & Paths
+│   ├── document_processor.py # Ingestion Pipeline
+│   ├── vector_store.py       # Embedding & Retrieval Logic
+│   └── memory.py             # Conversation History
+│
+├── backend/                  # API Layer
+│   ├── main.py               # FastAPI Server Entrypoint
+│   └── requirements.txt      # Backend Dependencies
+│
+├── requirements.txt          # AI Engine Dependencies
+└── .env                      # API Keys & Configuration
+```
+
+---
+
+## 🚀 Getting Started
 
 ### 1. Prerequisites
 
-- Python 3.10+
-- Google Cloud Project with Gemini API enabled
-- Gemini API Key
+- Python **3.10+**
+- Google **Gemini API Key**
 
-### 2. Install Dependencies
+### 2. Installation
+
+Clone the repository and set up your environment:
 
 ```bash
-pip install -r requirements.txt
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r ai_engine/requirements.txt
+pip install -r backend/requirements.txt
 ```
 
-### 3. Environment Variables
+---
 
-Create a `.env` file:
+## 3. Environment Configuration
+
+Create a `.env` file in the project root:
 
 ```env
-GEMINI_API_KEY=your_api_key_here
+GEMINI_API_KEY=your_google_api_key_here
+
+# Optional tuning
 LLM_MODEL=gemini-2.0-flash-exp
 EMBEDDING_MODEL=text-embedding-004
 TEMPERATURE=0.1
 CHUNK_SIZE=1000
 CHUNK_OVERLAP=200
-VECTOR_STORE_PATH=./chroma_db
-DOCS_DIRECTORY=./documents
 ```
-
-### 4. Add Documents
-
-Place your tax reform PDFs in `./documents/`:
-
-```
-documents/
-├── Nigeria_Tax_Bill_2024.pdf
-├── Nigeria_Tax_Administration_Bill_2024.pdf
-└── ... (other relevant documents)
-```
-
-### 5. Initialize Vector Store
-
-```bash
-python vector_store.py
-```
-
-This will:
-- Load all documents from `./documents/`
-- Chunk them intelligently
-- Generate embeddings using Gemini
-- Store in Chroma vector database
 
 ---
 
-## 💻 Usage
+## 4. Data Setup (Auto‑Ingestion)
 
-### Basic Usage
+1. Place all PDF documents inside:
+   ```
+   ai_engine/documents/
+   ```
 
-```python
-from agent import create_agent
-from vector_store import VectorStore
+2. On first startup, the system will automatically:
+   - Check if the vector database exists.
+   - Scan and process all PDFs.
+   - Chunk, embed, and store them in `ai_engine/chroma_db/`.
 
-# Initialize
-store = VectorStore()
-store.create_collection()
-
-agent = create_agent(store)
-
-# Chat
-response = agent.chat(
-    message="Will I pay more income tax?",
-    session_id="user_123"
-)
-
-print(response["response"])
-print(f"Sources: {len(response['sources'])}")
+**Manual ingestion (fallback):**
+```bash
+python -m ai_engine.vector_store
 ```
 
-### With Conversation History
+---
 
-```python
-# First question
-response1 = agent.chat(
-    "What is the income tax threshold?",
-    session_id="user_123"
-)
+## ⚡ Running the Server
 
-# Follow-up (uses conversation context)
-response2 = agent.chat(
-    "What if I earn more than that?",
-    session_id="user_123"
-)
+Start the application from the project root:
 
-# Get full history
-history = agent.get_conversation_history("user_123")
+```bash
+python -m backend.main
 ```
 
-### Response Format
+- **API Base URL:** `http://localhost:8000`
+- **Interactive Docs (Swagger):** `http://localhost:8000/docs`
 
-```python
+---
+
+## 📡 API Documentation
+
+### 1. Chat Endpoint
+
+**POST** `/api/chat`
+
+Handles user interaction with the AI agent.
+
+**Request**
+```json
 {
-    "session_id": "user_123",
-    "response": "Based on the Nigeria Tax Bill 2024...",
-    "sources": [
-        {
-            "document": "Nigeria Tax Bill 2024",
-            "type": "pdf",
-            "score": 0.87,
-            "excerpt": "Income tax rates have been..."
-        }
-    ],
-    "retrieved": True,
-    "timestamp": "2024-12-29T10:30:00"
+  "session_id": "unique_user_id",
+  "message": "Will small businesses pay VAT?",
+  "history": []
+}
+```
+
+**Response**
+```json
+{
+  "session_id": "unique_user_id",
+  "response": "Small businesses with turnover less than N50m are exempt...",
+  "sources": [
+    {
+      "document": "Nigeria Tax Bill 2024.pdf",
+      "type": "pdf",
+      "score": 0.65,
+      "excerpt": "..."
+    }
+  ],
+  "retrieved": true,
+  "timestamp": "2026-01-08T12:00:00"
+}
+```
+
+---
+
+### 2. Health Check
+
+**GET** `/health`
+
+```json
+{
+  "status": "healthy",
+  "ai_engine": "connected"
 }
 ```
 
@@ -184,352 +201,29 @@ history = agent.get_conversation_history("user_123")
 
 ## 🧪 Testing
 
-### Run All Tests
+### Test AI Engine Independently
+
+Run the AI engine without the API server:
 
 ```bash
-pytest tests/test_agent.py -v
+python -m ai_engine.main
 ```
 
-### Test Categories
+### Test Retrieval Quality
 
-**Greeting Handling**
-```python
-# Should NOT retrieve documents
-agent.chat("Hello", "test_session")
-agent.chat("Thank you", "test_session")
-```
-
-**Policy Questions**
-```python
-# Should retrieve documents
-agent.chat("Will I pay more tax?", "test_session")
-agent.chat("How does VAT work?", "test_session")
-```
-
-**Conversation Memory**
-```python
-# Should maintain context
-agent.chat("What is the income tax rate?", "session")
-agent.chat("What if I earn ₦500,000?", "session")  # Uses context
-```
-
-### Manual Testing
+Inspect similarity scores and debug retrieval:
 
 ```bash
-python tests/test_agent.py
-```
-
-This runs:
-- Unit tests
-- Manual test queries
-- Performance benchmarks
-
----
-
-## 🎯 Design Decisions
-
-### 1. Conditional Retrieval
-
-**Problem:** Retrieving documents for every query is slow and wasteful.
-
-**Solution:** Decision node that analyzes the query:
-- Greetings → No retrieval
-- Policy questions → Retrieve
-- Follow-ups → Use memory first
-
-### 2. Conversation Memory
-
-**Approach:** Store last 5 Q&A pairs (10 messages)
-
-**Benefits:**
-- Context-aware follow-ups
-- Natural conversation flow
-- Limited memory usage
-
-### 3. Chunking Strategy
-
-**Method:** Paragraph-based with overlap
-
-**Parameters:**
-- Chunk size: 1000 tokens
-- Overlap: 200 tokens
-
-**Why:** Preserves context while enabling precise retrieval
-
-### 4. Gemini 2.0 Flash
-
-**Why this model:**
-- Fast response times (< 2s)
-- Cost-effective for production
-- High accuracy for factual tasks
-- Native multimodal support
-
-### 5. Citation Format
-
-```
-[Source: Nigeria Tax Bill 2024, Section 12]
-```
-
-**Why:** Clear, verifiable, builds trust
-
----
-
-## 📊 Performance Targets
-
-| Metric | Target | Current |
-|--------|--------|---------|
-| Retrieval Time | < 1s | ~0.8s |
-| Generation Time | < 2s | ~1.5s |
-| Total Response | < 3s | ~2.3s |
-| Accuracy | 90%+ | 92% |
-| Citation Rate | 100% | 100% |
-
----
-
-## 🔗 Integration with Backend
-
-### Shared Memory
-
-The `memory.py` module is designed for shared use:
-
-```python
-from memory import shared_memory
-
-# Backend can import and use the same instance
-history = shared_memory.get_history(session_id)
-```
-
-### API Integration Points
-
-```python
-# What backend receives
-{
-    "session_id": "user_123",
-    "message": "Will I pay more tax?"
-}
-
-# What AI Engine returns
-{
-    "session_id": "user_123",
-    "response": "Based on the bills...",
-    "sources": [...],
-    "retrieved": True,
-    "timestamp": "..."
-}
-```
-
-### Session Management
-
-Backend handles:
-- Session ID generation
-- HTTP request/response
-- Rate limiting
-- Error handling
-
-AI Engine handles:
-- Conversation storage
-- Context management
-- Memory pruning
-
----
-
-## 🐛 Troubleshooting
-
-### Issue: "No documents found"
-
-**Solution:**
-```bash
-# Check documents directory
-ls -la documents/
-
-# Ensure PDFs are present
-# Run document processor
-python document_processor.py
-```
-
-### Issue: "Gemini API error"
-
-**Solution:**
-```bash
-# Verify API key
-echo $GEMINI_API_KEY
-
-# Check quota
-# Visit: https://aistudio.google.com/
-```
-
-### Issue: "Slow retrieval"
-
-**Solution:**
-```python
-# Reduce retrieval_top_k in config.py
-RETRIEVAL_TOP_K = 3  # Instead of 5
-
-# Enable caching
-ENABLE_CACHING = True
-```
-
-### Issue: "Memory overflow"
-
-**Solution:**
-```python
-# Reduce max history in config.py
-MAX_CONVERSATION_HISTORY = 3  # Instead of 5
-
-# Run cleanup
-memory.cleanup_old_sessions(hours=1)
+python debug_retrieval.py
 ```
 
 ---
 
-## 📈 Optimization Tips
+## 👥 Contributors
 
-### 1. Batch Processing
-
-```python
-# Process multiple queries efficiently
-queries = ["Query 1", "Query 2", "Query 3"]
-
-for query in queries:
-    response = agent.chat(query, session_id)
-```
-
-### 2. Caching
-
-```python
-# Enable in config.py
-ENABLE_CACHING = True
-CACHE_TTL = 3600  # 1 hour
-```
-
-### 3. Async Operations
-
-```python
-# Use async for concurrent requests
-async def process_query(query):
-    response = await agent.chat_async(query, session_id)
-    return response
-```
+**Samuel Dasaolu** – AI Engineer  
+*Agent Logic, RAG Pipeline, API Integration, System Architecture*
 
 ---
 
-## 🤝 Collaboration Notes
-
-### For Backend Team (Adems)
-
-**Endpoints Needed:**
-```python
-POST /api/chat
-{
-    "session_id": "string",
-    "message": "string"
-}
-
-Response:
-{
-    "session_id": "string",
-    "response": "string",
-    "sources": [...],
-    "timestamp": "string"
-}
-```
-
-**Memory Integration:**
-```python
-from memory import shared_memory
-
-# Get history for session
-history = shared_memory.get_history(session_id)
-
-# Export for storage
-session_data = shared_memory.export_session(session_id)
-```
-
-### For Frontend Team (Reuben)
-
-**Expected Response Format:**
-```typescript
-interface ChatResponse {
-    session_id: string;
-    response: string;
-    sources: Source[];
-    retrieved: boolean;
-    timestamp: string;
-}
-
-interface Source {
-    document: string;
-    type: string;
-    score: number;
-    excerpt: string;
-}
-```
-
----
-
-## 📝 Documentation
-
-### Agent Decision Logic
-
-```python
-def decide_retrieval(state):
-    """
-    Decision rules:
-    1. Greeting/thanks → No retrieval
-    2. Policy question → Retrieve
-    3. Follow-up → Check context first
-    """
-```
-
-### Memory Management
-
-```python
-class ConversationMemory:
-    """
-    - Stores last N messages per session
-    - Auto-prunes old sessions
-    - Thread-safe for concurrent access
-    - Serializable for backend storage
-    """
-```
-
-### Citation Extraction
-
-```python
-def extract_sources(documents):
-    """
-    Formats: [Source: Document, Section X]
-    Includes: document name, section, excerpt
-    """
-```
-
----
-
-## 🎓 Next Steps
-
-1. ✅ Core AI Engine complete
-2. ⏳ Integration with backend API
-3. ⏳ Frontend integration testing
-4. ⏳ End-to-end testing
-5. ⏳ Performance optimization
-6. ⏳ Deployment preparation
-
----
-
-## 📞 Contact
-
-**AI Engineer:** Samuel Dasaolu  
-**Collaboration:** Backend (Adems), Frontend (Reuben), PM (Paul)  
-
----
-
-## 📚 References
-
-- [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
-- [LangGraph Guide](https://langchain-ai.github.io/langgraph/)
-- [Gemini API Docs](https://ai.google.dev/docs)
-- [Chroma DB](https://docs.trychroma.com/)
-
----
-
-**Built with ❤️ for Nigeria 🇳🇬**
+Built with **LangGraph**, **FastAPI**, and **Google Gemini**.
