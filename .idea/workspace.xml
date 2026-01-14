@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="790ec617-2ba0-43f9-9fa3-a9a03c07b546" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.firebase/hosting.ZGlzdA.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.firebaserc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.vite/deps/_metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.vite/deps/chunk-BGO6OVE5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.vite/deps/chunk-BGO6OVE5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.vite/deps/lucide-react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.vite/deps/lucide-react.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.vite/deps/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.vite/deps/react-dom_client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.vite/deps/react-dom_client.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.vite/deps/react.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/.vite/deps/react.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/app.jsx.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/eslint.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/firebase.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/frontend_issues.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/public/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/App.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/ChatDisplay.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/ChatInput.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/ErrorMessage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/LoadingIndicator.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/MainContent.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/Sidebar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/SourceCitation.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/SuggestedActions.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/Welcome.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/layouts/AppLayout.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/views/ChatView.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/components/views/WelcomeView.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/constants/index.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/contexts/ChatContext.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/hooks/useChat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/hooks/useDarkMode.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/main.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/services/api.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/src/utils/classNames.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/frontend-tax/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/esbuild" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/esbuild.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/esbuild.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/jiti" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/jiti.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/jiti.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/nanoid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/nanoid.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/nanoid.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/rollup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/rollup.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/rollup.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/vite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/vite.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.bin/vite.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.vite/deps/_metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/.vite/deps/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@esbuild/win32-x64/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@esbuild/win32-x64/esbuild.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@esbuild/win32-x64/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/dist/gen-mapping.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/dist/gen-mapping.mjs.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/dist/gen-mapping.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/dist/gen-mapping.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/dist/types/gen-mapping.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/dist/types/set-array.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/dist/types/sourcemap-segment.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/dist/types/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/src/gen-mapping.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/src/set-array.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/src/sourcemap-segment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/src/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/gen-mapping.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/gen-mapping.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/gen-mapping.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/gen-mapping.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/set-array.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/set-array.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/set-array.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/set-array.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/sourcemap-segment.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/sourcemap-segment.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/sourcemap-segment.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/sourcemap-segment.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/types.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/types.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/types.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/gen-mapping/types/types.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/dist/remapping.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/dist/remapping.mjs.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/dist/remapping.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/dist/remapping.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/src/build-source-map-tree.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/src/remapping.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/src/source-map-tree.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/src/source-map.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/src/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/build-source-map-tree.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/build-source-map-tree.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/build-source-map-tree.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/build-source-map-tree.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/remapping.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/remapping.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/remapping.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/remapping.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/source-map-tree.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/source-map-tree.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/source-map-tree.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/source-map-tree.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/source-map.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/source-map.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/source-map.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/source-map.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/types.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/types.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/types.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/remapping/types/types.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/resolve-uri/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/resolve-uri/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/resolve-uri/dist/resolve-uri.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/resolve-uri/dist/resolve-uri.mjs.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/resolve-uri/dist/resolve-uri.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/resolve-uri/dist/resolve-uri.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/resolve-uri/dist/types/resolve-uri.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/resolve-uri/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.mjs.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/dist/sourcemap-codec.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/src/scopes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/src/sourcemap-codec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/src/strings.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/src/vlq.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/scopes.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/scopes.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/scopes.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/scopes.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/sourcemap-codec.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/sourcemap-codec.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/sourcemap-codec.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/sourcemap-codec.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/strings.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/strings.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/strings.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/strings.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/vlq.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/vlq.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/vlq.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/sourcemap-codec/types/vlq.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.mjs.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.umd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/dist/trace-mapping.umd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/src/binary-search.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/src/by-source.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/src/flatten-map.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/src/resolve.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/src/sort.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/src/sourcemap-segment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/src/strip-filename.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/src/trace-mapping.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/src/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/binary-search.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/binary-search.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/binary-search.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/binary-search.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/by-source.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/by-source.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/by-source.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/by-source.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/flatten-map.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/flatten-map.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/flatten-map.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/flatten-map.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/resolve.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/resolve.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/resolve.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/resolve.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/sort.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/sort.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/sort.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/sort.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/sourcemap-segment.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/sourcemap-segment.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/sourcemap-segment.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/sourcemap-segment.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/strip-filename.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/strip-filename.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/strip-filename.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/strip-filename.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/trace-mapping.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/trace-mapping.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/trace-mapping.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/trace-mapping.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/types.d.cts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/types.d.cts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/types.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@jridgewell/trace-mapping/types/types.d.mts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@rollup/rollup-win32-x64-gnu/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@rollup/rollup-win32-x64-gnu/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@rollup/rollup-win32-x64-gnu/rollup.win32-x64-gnu.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@rollup/rollup-win32-x64-msvc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@rollup/rollup-win32-x64-msvc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/dist/esm-cache.loader.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/dist/esm-cache.loader.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/dist/index.d.mts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/dist/index.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/dist/require-cache.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/dist/require-cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/node/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/oxide-win32-x64-msvc/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/oxide-win32-x64-msvc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/oxide-win32-x64-msvc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/oxide/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/oxide/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/oxide/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend docs/node_modules/@tailwindcss/oxide/package.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SamuelDasaolu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SamuelDasaolu/Tax_Reform_Project.git",
+    "accountId": "e1eec044-6fd1-41d0-9e35-27feb54a4b6b"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="38CR2i6T8HKEhXei0ppfWPBlJMl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "rag__engine",
+    "last_opened_file_path": "C:/Users/ncc/PycharmProjects/Tax_Reform_Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ncc\PycharmProjects\Tax_Reform_Project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ncc\PycharmProjects\Tax_Reform_Project" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Tax_Reform_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="790ec617-2ba0-43f9-9fa3-a9a03c07b546" name="Changes" comment="" />
+      <created>1768301362642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768301362642</updated>
+      <workItem from="1768301364018" duration="451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
